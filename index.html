@@ -1,16 +1,26 @@
 <!doctype html>
 <head>
-  <title>Connect Four</title>
-  <link href="connectFour.css" rel="stylesheet">
+  <title>Connect Four RF</title>
+  <link href="connectFourRF.css" rel="stylesheet">
 </head>
 <body>
-<header id="title">CONNECT FOUR</header>
+  <header id="title">CONNECT FOUR</header>
 
-<div id="game">
-  <table id="board"></table>
+<!-- <div id="pregame">
+  <input id="p1-input" placeholder="Player 1 pick your color"></input>
+  <input id="p2-input" placeholder="Player 2 pick your color"></input>
+  <button id="start-btn">Start New Game</button>
+</div> -->
+<div id="subtitle">
+<input id="p1-input" placeholder="Player 1 pick your color">
+<input id="p2-input" placeholder="Player 2 pick your color">
+<button id="start-btn">Start Game!</button>
 </div>
 
-<script src="connectFour.js"></script>
+  <div id="game">
+    <table id="board"></table>
+  </div>
 
+  <script src="connectFourRF.js"></script>
 </body>
 </html>
